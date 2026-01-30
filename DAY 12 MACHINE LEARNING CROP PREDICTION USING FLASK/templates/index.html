@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ML API</title>
+    <link rel="stylesheet" href="static\style.css">
+    
+</head>
+<body>
+
+    <div class ='login'>
+        <h1>CROP PREDICTION MODEL USING FLASK</h1>
+        <form action="{{url_for('predict')}}" method="post">
+
+            <input type="text" , name = 'Nitrogen' placeholder="Nitrogen Required" Required ="Required">
+
+            <input type="text" , name = 'Phosphorous' placeholder="Phosphorous Required" Required ="Required">
+
+            <input type="text" , name = 'Potatsium' placeholder="Potatsium Required" Required ="Required">
+
+            <input type="text" , name = 'temperature' placeholder="temperature Required" Required ="Required">
+
+            <input type="text" , name = 'humidity' placeholder="humidity Required" Required ="Required">
+
+            <input type="text" , name = 'ph' placeholder="ph Required" Required ="Required">
+
+            <input type="text" , name = 'rainfall' placeholder="rainfall Required" Required ="Required">
+
+            <button type="submit" class="btn btn-primary btn-block btn-large">Predcit</button>
+        </form>
+
+        <h1 id ='predi'>{{ prediction_text }}</h1>
+
+    </div>
+    
+
+</body>
+</html> 

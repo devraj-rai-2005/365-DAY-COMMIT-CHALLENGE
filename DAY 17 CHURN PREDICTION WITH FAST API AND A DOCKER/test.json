@@ -1,0 +1,15 @@
+{
+  "City": "Pune",
+  "Latitude": 18.5204,
+  "Longitude": 73.8567,
+  "Gender": "Male",
+  "Senior_Citizen": "No",
+  "Partner": "Yes",
+  "Tenure_Months": 12,
+  "Contract": "Month-to-month",
+  "Payment_Method": "Credit card",
+  "Monthly_Charges": 1200.50,
+  "Churn_Score": 65
+}
+
+

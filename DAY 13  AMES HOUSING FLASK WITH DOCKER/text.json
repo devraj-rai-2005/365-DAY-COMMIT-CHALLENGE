@@ -1,0 +1,22 @@
+{
+  "Overall_Qual": 7,
+  "Year_Built": 2005,
+  "Year_Remod_Add": 2010,
+  "Mas_Vnr_Area": 150.0,
+  "Exter_Qual": "Gd",
+  "Bsmt_Qual": "TA",
+  "BsmtFin_SF_1": 800,
+  "Total_Bsmt_SF": 900,
+  "Heating_QC": "Ex",
+  "first_Flr_SF": 1000,
+  "Gr_Liv_Area": 1600,
+  "Full_Bath": 2,
+  "Kitchen_Qual": "Gd",
+  "TotRms_AbvGrd": 7,
+  "Fireplaces": 1,
+  "Fireplace_Qu": "TA",
+  "Garage_Yr_Blt": 2005,
+  "Garage_Finish": "Fin",
+  "Garage_Cars": 2,
+  "Garage_Area": 480
+}
